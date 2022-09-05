@@ -1,0 +1,31 @@
+.nav{
+    height: 100px;
+    width: 100%;
+    background: #1A202C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav>img{
+    margin-left: 48px;
+}
+.nav>a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    
+    width: 150px;
+    height: 56px;
+    
+    /* Primary/Base */
+    
+    background: #194BFB;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    margin-right: 48px;
+}

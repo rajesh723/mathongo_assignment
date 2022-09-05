@@ -1,0 +1,33 @@
+.eyebut>img{
+    height: 46px;
+    width: 46px;
+    background-color:rgb(232, 240, 254);
+}
+.passwords{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(232, 240, 254);
+    
+}
+.eyebut{
+    display: flex;
+    width: 56px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+}
+.passinp{
+    border: none;
+
+    width: 380px;
+    background-color:rgb(232, 240, 254);
+}
+
+input[className='passinp'], textarea {
+
+    background-color : rgb(232, 240, 254); 
+  
+  }
+.pass{
+    margin-top: -15px;
+}
